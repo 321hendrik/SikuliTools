@@ -14,7 +14,7 @@ class CaptureSelectionCommand(sublime_plugin.WindowCommand):
     def run(self):
         self.window.show_input_panel("file name for capture", "", self.save_file, None, None)
     
-    def save_file(file_name):
+    def save_file(self, file_name):
         """capture image from screen and save to given filename"""
         file_extension = 'png'
         
