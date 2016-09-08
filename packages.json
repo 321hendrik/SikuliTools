@@ -1,5 +1,5 @@
 {
-    "schema_version": "1.0.0",
+    "schema_version": "3.0.0",
     "packages": [
         {
             "name": "SikuliTools",
@@ -9,7 +9,13 @@
             "description": "A collection of tools for creation of SikuliX tests with SublimeText",
             "author": "Hendrik Elsner (321hendrik@gmail.com)",
             "readme": "https://raw.github.com/hendrikelsner/SikuliTools/master/README.md",
-            "labels": ["sikuli", "gui", "test", "automation", "app", "web", "image", "capture"]
+            "labels": ["sikuli", "gui", "test", "automation", "app", "web", "image", "capture"],
+            "releases": [
+              {
+                "sublime_text": "*",
+                "tags": true
+              }
+            ]
         }
     ]
 }
