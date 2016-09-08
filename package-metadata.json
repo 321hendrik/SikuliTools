@@ -1,8 +1,0 @@
-{
-  "sublime_text": "*",
-  "description": "An image capture plugin",
-  "url": "",
-  "platforms": ["osx"],
-  "version": "1.0.0",
-  "dependencies": []
-}

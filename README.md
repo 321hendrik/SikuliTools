@@ -1,5 +1,7 @@
-# Capture Selection Plugin for Use with Sublime Text and [SikuliX](http://sikulix.com/)
-Sublime Text Plugin that captures a selection from the screen, saves it to the currently active directory and inserts the filename at the cursor position. The primary purpose is the leave SikuliX IDE and write GUI tests in Sublime Text.
+# SikuliTools
+The primary purpose for this collection of tools is to leave [SikuliX IDE](http://sikulix.com/) and write GUI tests in Sublime Text.
+  
+- captures a selection from the screen, saves it to the currently active directory and inserts the filename at the cursor position.
 
 ## Installation
 Clone repository into your Sublime Packages Folder.  
@@ -8,8 +10,10 @@ Clone repository into your Sublime Packages Folder.
 
 
 ## Usage
-To a selection from screen, use:
 
-- OS X: `cmd+alt+c`
+### Capture
+- Hit `cmd+alt+c`
+- type image name and hit ENTER (if you leave this blank, a timestamp is used as filename)
+- select a part of the screen
 
-The selection is saved to a timestamped image file in the directory of the currently active tab.
+The selection is saved to an image file in the directory of the currently active tab.
