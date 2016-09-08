@@ -4,10 +4,19 @@ The primary purpose for this collection of tools is to leave [SikuliX IDE](http:
 - captures a selection from the screen, saves it to the currently active directory and inserts the filename at the cursor position.
 
 ## Installation
-Clone repository into your Sublime Packages Folder.  
-  
-@TODO Install this repository via [Package Control](https://sublime.wbond.net).
+**With the Package Control plugin:** The easiest way to install SikuliTools is through Package Control, which can be found at this site: http://wbond.net/sublime_packages/package_control
 
+Once you install Package Control, restart Sublime Text and bring up the Command Palette (`Command+Shift+P`). Select "Package Control: Install Package", wait while Package Control fetches the latest package list, then select SikuliTools when the list appears. The advantage of using this method is that Package Control will automatically keep SikuliTools up to date with the latest version.
+
+**Without Git:** Download the latest source from `GitHub <https://github.com/hendrikelsner/SikuliTools>`_ and copy the whole directory into the Packages directory.
+
+**With Git:** Clone the repository in your Sublime Text Packages directory, located somewhere in user's "Home" directory::
+
+    git clone https://github.com/hendrikelsner/SikuliTools.git
+
+
+To access the "Package" directory use:
+Sublime Text -> Preferences -> Browse Packages...
 
 ## Usage
 
