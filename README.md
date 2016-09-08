@@ -31,3 +31,4 @@ The selection is saved to an image file in the directory of the currently active
 - Command to clean up a test folder (remove unused images, show missing)
 - A match overlay that highlights all matches on screen for a selected image pattern
 - Build script to run the currently open test
+- CheatSheet view (like https://packagecontrol.io/packages/Cheat%20Sheets)
